@@ -1,20 +1,22 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './image/logo_w.png';
 import map from './image/map.png';
 import './main.css';
 
 function Main() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className='App-Name'>
-          <img src={logo} className="App-logo" alt="logo" />
+    <div className="Main">
+      <header className="Main-header">
+        <div className='Main-Name'>
+          <img src={logo} className="Main-logo" alt="logo" />
           <p>경일대 안내앱</p>
         </div>
-        <ul className="App-Top">
-          <li>지도</li>
-          <li>내선번호</li>
-          <li>학과 교수님</li>
-          <li>사무실</li>
+        <ul className="Main-Top">
+          <li><Link to="/" style={{ textDecoration: "none", color: "white" }}>지도</Link></li>
+          <li><Link to="/building" style={{ textDecoration: "none", color: "white" }}>내선번호</Link></li>
+          <li><Link to="/phone" style={{ textDecoration: "none", color: "white" }}>학과 교수님</Link></li>
+          <li><Link to="/building" style={{ textDecoration: "none", color: "white" }}>사무실</Link></li>
         </ul>
       </header>
       <div className="Map_Middle">
