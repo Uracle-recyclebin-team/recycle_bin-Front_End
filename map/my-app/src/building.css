@@ -59,25 +59,27 @@ h1 {
     margin-bottom: 10px;
 }
 
-.Building-Middle2 .Building-img2 {
+.Building-Middle2 > .Building-img2 {
     width: 393px;
     height: 200px;
     margin-bottom: 10px;
+
 }
 
-.Building-Middle2 > .leftBtn {
+.prevBtn {
     background-color: rgba(228, 228, 228, 0.397);
     border: none;
     border-radius: 20px;
     padding: 0;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     width: 5vh;
-    top: 300px;
-    left: 0px;
+    top: 90px;
+    right: 173px;
+    z-index: 2;
 }
 
-.Building-Middle2 > .rightBtn {
+.nextBtn {
     background-color: rgba(228, 228, 228, 0.397);
     border: none;
     border-radius: 20px;
@@ -87,6 +89,30 @@ h1 {
     width: 5vh;
     top: 300px;
     right: 0px;
+}
+
+.Building-Middle2 > .upBtn {
+    background-color: rgba(228, 228, 228, 0.397);
+    border: none;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    width: 5vh;
+    top: 215px;
+    left: 45%;
+}
+
+.Building-Middle2 > .downBtn {
+    background-color: rgba(228, 228, 228, 0.397);
+    border: none;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    width: 5vh;
+    top: 386px;
+    left: 45%;
 }
 
 .Building-Middle2 button:hover {
