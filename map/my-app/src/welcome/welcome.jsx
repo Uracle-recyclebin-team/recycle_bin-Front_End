@@ -19,7 +19,7 @@ const Welcome = () => {
     <div className='welcome'>
         <div className='welcome-container'>
             <img src={logo} className="welcome-logo" alt="logo" />
-            <p>경일대 안내앱</p>
+            <p>경일로드</p>
         </div>
     </div>
   );

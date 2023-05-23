@@ -8,7 +8,7 @@ const Header = () => {
     <header className="Main-header">
         <div className='Main-Name'>
           <img src={logo} className="Main-logo" alt="logo" />
-          <p>경일대 안내앱</p>
+          <p>경일로드</p>
         </div>
         <ul className="Main-Top">
           <li><Link to="../main/main" style={{ textDecoration: "none", color: "white" }}>지도</Link></li>

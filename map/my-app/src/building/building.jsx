@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import image from '../image/6building.jpg';
+import floor2 from '../image/2floor.png';
+import floor3 from '../image/3floor.png';
+import floor4 from '../image/4floor.png';
 import Header from '../header/header';
 import '../main/main';
 import '../main/main.css';
@@ -61,7 +64,7 @@ function Building() {
       </div>
       <div className="Building-Middle-2floor" style={{ display: showMiddle2 && !showMiddle3 ? 'block' : 'none' }}>
         {/*건물 외관 div를 숨긴 후, 2층 div 표출*/}
-        <img src={image} className="Building-img" alt="Building-img" />
+        <img src={floor2} className="Building-img" alt="Building-img" />
         <div className="Slide2floor">
           <Slide2floor />
         </div>
@@ -72,7 +75,7 @@ function Building() {
       </div>
       <div className="Building-Middle-3floor" style={{ display: !showMiddle2 && showMiddle3 ? 'block' : 'none' }}>
         {/*2층 div를 숨긴 후, 3층 div 표출*/}
-        <img src={image} className="Building-img" alt="Building-img" />
+        <img src={floor3} className="Building-img" alt="Building-img" />
         <div className="Slide3floor">
           <Slide3floor />
         </div>
@@ -87,7 +90,7 @@ function Building() {
       </div>
       <div className="Building-Middle-4floor" style={{ display: !showMiddle3 && showMiddle4 ? 'block' : 'none' }}>
         {/*3층 div를 숨긴 후, 4층 div 표출*/}
-        <img src={image} className="Building-img" alt="Building-img" />
+        <img src={floor4} className="Building-img" alt="Building-img" />
         <div className="Slide4floor">
           <Slide4floor />
         </div>
