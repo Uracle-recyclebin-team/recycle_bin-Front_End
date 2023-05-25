@@ -105,7 +105,7 @@ function Building() {
         <tbody>
           <tr>
             <td>1층</td>
-            <td>자동차학과</td>
+            <td>자동차학과(통제구역)</td>
           </tr>
           <tr>
             <td>2층</td>
@@ -113,7 +113,7 @@ function Building() {
           </tr>
           <tr>
             <td>3층</td>
-            <td>사회복지학과</td>
+            <td>로봇공학과</td>
           </tr>
           <tr>
             <td>4층</td>
